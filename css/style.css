@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gudea', sans-serif;
+    background: #00d8d6;
+
+}
+button {
+    font-family: 'Gudea', sans-serif;
+}
+.container {
+    background: #3ae374;
+    width: 1000px;
+}
+.main-input {
+    display: flex;
+}
+#taskInput {
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+
+}
+#addTaskButton {
+    color: #494949;
+    text-transform: uppercase;
+    background: #ffffff;
+
+    border: 2px solid darkgrey;
+    display: inline-block;
+    height: 50px;
+    width: 30%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+#addTaskButton:hover {
+    color: #ffffff;
+    background: #f6b93b;
+    border-color: #f6b93b;
+    transition: all 0.4s ease 0s;
+}
+.counter, .spn {
+    display: flex;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#taskList {
+    list-style: none;
+}
+li {
+
+    width: 900px;
+    background-color: #00d8d6;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 12px;
+    border: 2px solid darkgrey;
+
+}
+li h1 {
+    margin-left: 20px;
+}
+
+li div button {
+    color: #494949;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid darkgrey;;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+li div button:hover {
+    color: #ffffff;
+    background: #f6b93b;
+    border-color: #f6b93b;
+    transition: all 0.4s ease 0s;
+}
+.spn {
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.counter {
+    color: white;
+    font-weight: 400;
+}
+#removeFinishedTasksButton{
+    color: #494949;
+    text-transform: uppercase;
+    background: #ffffff;
+    display: inline-block;
+    border: 2px solid darkgrey;;
+    border-radius: 6px;
+    height: 50px;
+    width: 30%;
+    font-size: 16px;
+
+}
+#removeFinishedTasksButton:hover {
+    color: #ffffff;
+    background: #f6b93b;
+    border-color: #f6b93b;
+    transition: all 0.4s ease 0s;
+}
+.button-remove {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
